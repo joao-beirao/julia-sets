@@ -1,10 +1,6 @@
 import numpy as np
-import os
-from PIL import Image
 
 # Constants
-IMAGE_DIRECTORY_PGM = './images/pgm/'
-IMAGE_DIRECTORY_PNG = './images/png/'
 DEFAULT_IMAGE_SIZE = 720
 
 IMAGE_RANGE = 2.0 # Imaginary and Real Range in [-IMAGE_RANGE ; IMAGE_RANGE]
@@ -13,13 +9,13 @@ Central_Pivot = 0.5
 
 
 # Create Julia's Graph image (julia_constant, img_weight, img_height, filename)
-def generate_Julia_Image(julia_constant, w, h, filename):
+def generate_Julia_Image(julia_constant, w, h, filename, image_path):
     re_min = -IMAGE_RANGE
     re_max = IMAGE_RANGE
     im_min = -IMAGE_RANGE
     im_max =IMAGE_RANGE
 
-    fn = IMAGE_DIRECTORY_PGM + str(filename) + '.pgm'
+    fn = str(image_path+filename)
     c = complex(Central_Pivot, julia_constant)
 
     real_range = np.arange(re_min, re_max, (re_max-re_min)/w)
@@ -40,27 +36,9 @@ def generate_Julia_Image(julia_constant, w, h, filename):
 
     output.close()
 
-def pgm_to_png(filename):
 
-    with Image.open(IMAGE_DIRECTORY_PGM+filename+'.pgm') as im:
-        im.save(IMAGE_DIRECTORY_PNG+filename+'.png')
 
-print("========================= Julia Image Generator =========================")
-print("\n")
 
-weight = DEFAULT_IMAGE_SIZE #int(input("Define image width: "))            
-height = DEFAULT_IMAGE_SIZE #int(input("Define image height: "))
-j = float(input("Define Julia's constant (between 0 and 1): "))
-
-filename = input("Define File Name: ")
-
-generate_Julia_Image(j, weight, height, filename)
-print("\nImages Created: \n")
-print("\t-> Image generated ("+filename+".pgm)")
-pgm_to_png(filename)
-print("\t-> Image generated ("+filename+".png)")
-
-print("=========================================================================")
 
     
 
