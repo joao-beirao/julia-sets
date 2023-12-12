@@ -7,8 +7,8 @@ IMAGE_DIRECTORY = './images/'
 print("========================= Julia Image Generator =========================")
 print("\n")
 
-weight = DEFAULT_IMAGE_SIZE #int(input("Define image width: "))            
-height = DEFAULT_IMAGE_SIZE #int(input("Define image height: "))
+weight = int(input("Define image size (max.1000): "))            
+height = weight #int(input("Define image height: "))
 j = float(input("Define Julia's constant (between 0 and 1): "))
 
 filename = "{:.7f}".format(j) #input("Define File Name: ")
