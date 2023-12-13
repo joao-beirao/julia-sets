@@ -1,5 +1,7 @@
 from image_handling import *
 from julia_set_creator import *
+import os
+
 
 IMAGE_DIRECTORY = './images/'
 
@@ -20,7 +22,9 @@ filename_png = filename+'.png'
 generate_Julia_Image(j, weight, height, filename_pgm, IMAGE_DIRECTORY)
 
 print("\nImages Created: \n")
-print("\t-> Image generated ("+filename_pgm+")")
+
+os.remove(IMAGE_DIRECTORY + filename_pgm)
+
 pgm_to_png(filename_pgm,filename_png,IMAGE_DIRECTORY)
 print("\t-> Image generated ("+filename_png+")")
 
