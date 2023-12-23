@@ -32,10 +32,10 @@ def generate_Julia_Image_PGM(julia_point, size, filename, dir):
     for im in imag_range:
         for re in real_range:
             z = complex(re,im)
-            n=255
-            while abs(z) < 10 and n >= DECAY_RANGE:
+            n=0
+            while abs(z) < 10 and n <255:
                 z = z*z + c
-                n = n - DECAY_RANGE
+                n = n + DECAY_RANGE
             output.write(str(n)+' ')
         output.write('\n')
 
