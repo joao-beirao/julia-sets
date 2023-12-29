@@ -28,6 +28,8 @@ Some user options are:
 > The “filled-in” Julia set is the set of points which do not approach infinity after a function is repeatedly applied. This corresponds to a strange attractor.
 >
 >Julia sets are known for their intricate and beautiful fractal patterns. They exhibit an infinite amount of fine detail: you can zoom in on the edge of the fractal forever, and it will continue to reveal ever-smaller details.
+>
+>See more at: <a>https://en.wikipedia.org/wiki/Julia_set</a>
 
 <p align="center">
     <img src="./images/example1.png" width="240" title="P(z) = z2 −0.8 + 0.156i">
