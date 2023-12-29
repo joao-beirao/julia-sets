@@ -68,7 +68,7 @@ def defineFilename():
     return s
 
 def defineFileFrames():
-    s = int(input(" -> Number of Frames in Video (~100/2sec): ")) 
+    s = int(input(" -> Number of Frames in Video (~100): ")) 
     print("\n\n")
     return s
 ##################################
