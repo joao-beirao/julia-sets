@@ -1,4 +1,9 @@
 
+# Julia Set Pattern Generator
+<p align="center">
+    <img src="./videos/OveralPreviewDark.gif" width="420" title="Gif Preview">
+</p>
+
 ## Julia Sets
 
 A **Julia set**, named after the French mathematicians Gaston Julia and Pierre Fatou, is a concept in the field of complex dynamics, a branch of mathematics.
