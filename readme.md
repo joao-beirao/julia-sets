@@ -7,7 +7,7 @@
 
 ## Julia Sets
 
-> [!NOTE]
+> [!INFO]
 >
 > A **Julia set**, named after the French mathematicians Gaston Julia and Pierre Fatou, is a concept in the field of complex dynamics, a branch of mathematics.
 >
@@ -35,10 +35,11 @@ Some user options are:
  - Media Format
 
 Currently Available Formats:
- - Video
-  - MP4
-  - GIF
- - Image
-  - PNG
-  - PGM
+
+   - Video
+     - MP4
+     - GIF
+   - Image
+     - PNG
+     - PGM
 
