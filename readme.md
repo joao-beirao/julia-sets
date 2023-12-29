@@ -3,7 +3,7 @@
 
 <p align="center">
 <video width="420" height="420" controls loop autoplay muted>
-  <source src="https://github.com/joao-beirao/julia-sets/blob/main/videos/0-1+0iTo0+i.mp4" type="video/mp4">
+  <source src="https://github.com/joao-beirao/julia-sets/blob/main/videos/%20-1%2B0iTo0%2Bi.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 </p>
