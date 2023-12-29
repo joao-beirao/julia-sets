@@ -2,12 +2,11 @@ import numpy as np
 from tools.image_handling import *
 import os
 
-# Constants
-DEFAULT_IMAGE_SIZE = 720
+
 
 IMAGE_RANGE = 2.0 # Imaginary and Real Range in [-IMAGE_RANGE ; IMAGE_RANGE]
 DECAY_RANGE = 5 # num of painting iterations = 255/ DECAY_RANGE
-Central_Pivot = 0
+
 
 
 # Create Julia's Graph image (julia_constant, img_size, filename)
