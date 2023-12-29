@@ -1,8 +1,6 @@
 
 # Julia Set Pattern Generator
 
-![](./videos/%20-1+0iTo0+i.gif)
-
 <p align="center">
     <img src="https://github.com/joao-beirao/julia-sets/blob/main/videos/%20-1+0iTo0+i.gif" width="420" title="GIF Preview">
 </p>
