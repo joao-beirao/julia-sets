@@ -20,3 +20,17 @@ Julia sets are known for their intricate and beautiful fractal patterns. They ex
     <img src="./images/example2.png" width="240" title="P(z) =z2−0.4+0.6i">
     <img src="./images/example3.png" width="240" title="P(z) =z2+ 0.285 + 0.01i">
 </p>
+
+
+## Generator
+
+This Python lets the user create a custom Julia Set fractal. The program creates visual representations of a custom set or vector, defined by the user.
+
+The current formats available are:
+    - Video
+        - MP4
+        - GIF
+    - Image
+        - PNG
+        - PGM
+
