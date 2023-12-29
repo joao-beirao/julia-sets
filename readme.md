@@ -1,7 +1,7 @@
 
 # Julia Set Pattern Generator
 <p align="center">
-    <img src="./videos/OveralPreviewDark.gif" width="420" title="Gif Preview">
+    <img src="./videos/OveralPreviewDark.gif" width="420" height="420" />
 </p>
 
 ## Julia Sets
