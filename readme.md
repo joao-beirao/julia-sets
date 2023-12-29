@@ -2,7 +2,7 @@
 # Julia Set Pattern Generator
 
 <p align="center">
-    <img src="./images/example1.png" width="240" title="GIF Preview">
+    <img src="https://github.com/joao-beirao/julia-sets/blob/main/videos/%20-1%2B0iTo0%2Bi.gif" width="420" title="GIF Preview">
 </p>
 
 ## Julia Sets
