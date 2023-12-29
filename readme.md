@@ -5,6 +5,16 @@
     <img src="https://github.com/joao-beirao/julia-sets/blob/main/videos/%20-1%2B0iTo0%2Bi.gif" width="420" title="GIF Preview">
 </p>
 
+## Generator
+
+This Python program lets the user create a custom Julia Set fractal, or a video from a custom vector. The program creates visual representations of a chosen fractal, chosed by the user.
+
+Some user options are:
+ - Julia's Constant (Point that defines Fractal)
+ - Image Size
+ - File Name
+ - Media Format
+
 ## Julia Sets
 
 > A **Julia set**, named after the French mathematicians Gaston Julia and Pierre Fatou, is a concept in the field of complex dynamics, a branch of mathematics.
@@ -22,16 +32,10 @@
 </p>
 
 
-## Generator
 
->This Python program lets the user create a custom Julia Set fractal, or a video from a custom vector. The program creates visual representations of a chosen fractal, chosed by the user.
->
->Some user options are:
-> - Julia's Constant (Point that defines Fractal)
-> - Image Size
-> - File Name
-> - Media Format
->
+
+### Available Formats
+
 >**Currently Available Formats:**
 >
 >   - Video
