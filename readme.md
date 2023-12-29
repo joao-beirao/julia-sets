@@ -9,3 +9,4 @@ The “filled-in” Julia set is the set of points which do not approach infinit
 
 Julia sets are known for their intricate and beautiful fractal patterns. They exhibit an infinite amount of fine detail: you can zoom in on the edge of the fractal forever, and it will continue to reveal ever-smaller details.
 
+![example1](https://github.com/joao-beirao/julia-sets/blob/main/images/example1.png)
