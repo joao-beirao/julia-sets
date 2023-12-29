@@ -1,6 +1,6 @@
 
 # Julia Set Pattern Generator
-![](-1+0iTo0+i.gif)
+![](./videos/%20-1+0iTo0+i.gif)
 
 ## Julia Sets
 
