@@ -3,6 +3,9 @@
 
 ![](./videos/%20-1+0iTo0+i.gif)
 
+<p align="center">
+    <img src="https://github.com/joao-beirao/julia-sets/blob/main/videos/%20-1+0iTo0+i.gif" width="420" title="GIF Preview">
+</p>
 ## Julia Sets
 
 A **Julia set**, named after the French mathematicians Gaston Julia and Pierre Fatou, is a concept in the field of complex dynamics, a branch of mathematics.
