@@ -15,6 +15,10 @@ Some user options are:
  - File Name
  - Media Format
 
+<p> </p>
+<p> </p>
+<p> </p>
+
 ## Julia Sets
 
 > A **Julia set**, named after the French mathematicians Gaston Julia and Pierre Fatou, is a concept in the field of complex dynamics, a branch of mathematics.
@@ -31,17 +35,18 @@ Some user options are:
     <img src="./images/example3.png" width="240" title="P(z) =z2+ 0.285 + 0.01i">
 </p>
 
+<p> </p>
+<p> </p>
+<p> </p>
 
+## Available Formats
 
+**Currently Available Formats:**
 
-### Available Formats
-
->**Currently Available Formats:**
->
->   - Video
->     - MP4
->     - GIF
->   - Image
->     - PNG
->     - PGM
+   - Video
+     - MP4
+     - GIF
+   - Image
+     - PNG
+     - PGM
 
